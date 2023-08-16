@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.11.4 on win32)" generated="20230816 16:37:19.060" rpa="false" schemaversion="4">
+<suite id="s1" name="Questao4" source="c:\Users\VINI\Desktop\cursoprimerobot\primerobot\atividade4\questao4.robot">
+<test id="s1-t1" name="Exercício" line="5">
+<kw name="Exibir quantidade de numeros par">
+<kw name="Set Variable" library="BuiltIn">
+<var>${qt_num_par}</var>
+<arg>0</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<msg timestamp="20230816 16:37:19.095" level="INFO">${qt_num_par} = 0</msg>
+<status status="PASS" starttime="20230816 16:37:19.095" endtime="20230816 16:37:19.097"/>
+</kw>
+<for flavor="IN RANGE">
+<var>${i}</var>
+<value>0</value>
+<value>10</value>
+<iter>
+<var name="${i}">0</var>
+<if>
+<branch type="IF" condition="${i} % 2 == 0">
+<kw name="Evaluate" library="BuiltIn">
+<var>${qt_num_par}</var>
+<arg>${qt_num_par} + 1</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<msg timestamp="20230816 16:37:19.100" level="INFO">${qt_num_par} = 1</msg>
+<status status="PASS" starttime="20230816 16:37:19.100" endtime="20230816 16:37:19.100"/>
+</kw>
+<status status="PASS" starttime="20230816 16:37:19.099" endtime="20230816 16:37:19.102"/>
+</branch>
+<status status="PASS" starttime="20230816 16:37:19.099" endtime="20230816 16:37:19.102"/>
+</if>
+<status status="PASS" starttime="20230816 16:37:19.098" endtime="20230816 16:37:19.102"/>
+</iter>
+<iter>
+<var name="${i}">1</var>
+<if>
+<branch type="IF" condition="${i} % 2 == 0">
+<kw name="Evaluate" library="BuiltIn">
+<var>${qt_num_par}</var>
+<arg>${qt_num_par} + 1</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="NOT RUN" starttime="20230816 16:37:19.103" endtime="20230816 16:37:19.103"/>
+</kw>
+<status status="NOT RUN" starttime="20230816 16:37:19.103" endtime="20230816 16:37:19.103"/>
+</branch>
+<status status="PASS" starttime="20230816 16:37:19.102" endtime="20230816 16:37:19.104"/>
+</if>
+<status status="PASS" starttime="20230816 16:37:19.102" endtime="20230816 16:37:19.104"/>
+</iter>
+<iter>
+<var name="${i}">2</var>
+<if>
+<branch type="IF" condition="${i} % 2 == 0">
+<kw name="Evaluate" library="BuiltIn">
+<var>${qt_num_par}</var>
+<arg>${qt_num_par} + 1</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<msg timestamp="20230816 16:37:19.106" level="INFO">${qt_num_par} = 2</msg>
+<status status="PASS" starttime="20230816 16:37:19.105" endtime="20230816 16:37:19.106"/>
+</kw>
+<status status="PASS" starttime="20230816 16:37:19.105" endtime="20230816 16:37:19.106"/>
+</branch>
+<status status="PASS" starttime="20230816 16:37:19.105" endtime="20230816 16:37:19.106"/>
+</if>
+<status status="PASS" starttime="20230816 16:37:19.104" endtime="20230816 16:37:19.107"/>
+</iter>
+<iter>
+<var name="${i}">3</var>
+<if>
+<branch type="IF" condition="${i} % 2 == 0">
+<kw name="Evaluate" library="BuiltIn">
+<var>${qt_num_par}</var>
+<arg>${qt_num_par} + 1</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="NOT RUN" starttime="20230816 16:37:19.108" endtime="20230816 16:37:19.108"/>
+</kw>
+<status status="NOT RUN" starttime="20230816 16:37:19.107" endtime="20230816 16:37:19.108"/>
+</branch>
+<status status="PASS" starttime="20230816 16:37:19.107" endtime="20230816 16:37:19.108"/>
+</if>
+<status status="PASS" starttime="20230816 16:37:19.107" endtime="20230816 16:37:19.108"/>
+</iter>
+<iter>
+<var name="${i}">4</var>
+<if>
+<branch type="IF" condition="${i} % 2 == 0">
+<kw name="Evaluate" library="BuiltIn">
+<var>${qt_num_par}</var>
+<arg>${qt_num_par} + 1</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<msg timestamp="20230816 16:37:19.110" level="INFO">${qt_num_par} = 3</msg>
+<status status="PASS" starttime="20230816 16:37:19.110" endtime="20230816 16:37:19.110"/>
+</kw>
+<status status="PASS" starttime="20230816 16:37:19.109" endtime="20230816 16:37:19.111"/>
+</branch>
+<status status="PASS" starttime="20230816 16:37:19.109" endtime="20230816 16:37:19.111"/>
+</if>
+<status status="PASS" starttime="20230816 16:37:19.109" endtime="20230816 16:37:19.111"/>
+</iter>
+<iter>
+<var name="${i}">5</var>
+<if>
+<branch type="IF" condition="${i} % 2 == 0">
+<kw name="Evaluate" library="BuiltIn">
+<var>${qt_num_par}</var>
+<arg>${qt_num_par} + 1</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="NOT RUN" starttime="20230816 16:37:19.112" endtime="20230816 16:37:19.113"/>
+</kw>
+<status status="NOT RUN" starttime="20230816 16:37:19.112" endtime="20230816 16:37:19.113"/>
+</branch>
+<status status="PASS" starttime="20230816 16:37:19.112" endtime="20230816 16:37:19.114"/>
+</if>
+<status status="PASS" starttime="20230816 16:37:19.111" endtime="20230816 16:37:19.114"/>
+</iter>
+<iter>
+<var name="${i}">6</var>
+<if>
+<branch type="IF" condition="${i} % 2 == 0">
+<kw name="Evaluate" library="BuiltIn">
+<var>${qt_num_par}</var>
+<arg>${qt_num_par} + 1</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<msg timestamp="20230816 16:37:19.116" level="INFO">${qt_num_par} = 4</msg>
+<status status="PASS" starttime="20230816 16:37:19.115" endtime="20230816 16:37:19.116"/>
+</kw>
+<status status="PASS" starttime="20230816 16:37:19.114" endtime="20230816 16:37:19.117"/>
+</branch>
+<status status="PASS" starttime="20230816 16:37:19.114" endtime="20230816 16:37:19.118"/>
+</if>
+<status status="PASS" starttime="20230816 16:37:19.114" endtime="20230816 16:37:19.118"/>
+</iter>
+<iter>
+<var name="${i}">7</var>
+<if>
+<branch type="IF" condition="${i} % 2 == 0">
+<kw name="Evaluate" library="BuiltIn">
+<var>${qt_num_par}</var>
+<arg>${qt_num_par} + 1</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="NOT RUN" starttime="20230816 16:37:19.120" endtime="20230816 16:37:19.120"/>
+</kw>
+<status status="NOT RUN" starttime="20230816 16:37:19.119" endtime="20230816 16:37:19.121"/>
+</branch>
+<status status="PASS" starttime="20230816 16:37:19.119" endtime="20230816 16:37:19.121"/>
+</if>
+<status status="PASS" starttime="20230816 16:37:19.119" endtime="20230816 16:37:19.121"/>
+</iter>
+<iter>
+<var name="${i}">8</var>
+<if>
+<branch type="IF" condition="${i} % 2 == 0">
+<kw name="Evaluate" library="BuiltIn">
+<var>${qt_num_par}</var>
+<arg>${qt_num_par} + 1</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<msg timestamp="20230816 16:37:19.125" level="INFO">${qt_num_par} = 5</msg>
+<status status="PASS" starttime="20230816 16:37:19.124" endtime="20230816 16:37:19.125"/>
+</kw>
+<status status="PASS" starttime="20230816 16:37:19.122" endtime="20230816 16:37:19.126"/>
+</branch>
+<status status="PASS" starttime="20230816 16:37:19.122" endtime="20230816 16:37:19.126"/>
+</if>
+<status status="PASS" starttime="20230816 16:37:19.122" endtime="20230816 16:37:19.126"/>
+</iter>
+<iter>
+<var name="${i}">9</var>
+<if>
+<branch type="IF" condition="${i} % 2 == 0">
+<kw name="Evaluate" library="BuiltIn">
+<var>${qt_num_par}</var>
+<arg>${qt_num_par} + 1</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="NOT RUN" starttime="20230816 16:37:19.127" endtime="20230816 16:37:19.127"/>
+</kw>
+<status status="NOT RUN" starttime="20230816 16:37:19.126" endtime="20230816 16:37:19.127"/>
+</branch>
+<status status="PASS" starttime="20230816 16:37:19.126" endtime="20230816 16:37:19.127"/>
+</if>
+<status status="PASS" starttime="20230816 16:37:19.126" endtime="20230816 16:37:19.127"/>
+</iter>
+<status status="PASS" starttime="20230816 16:37:19.098" endtime="20230816 16:37:19.127"/>
+</for>
+<kw name="Log To Console" library="BuiltIn">
+<arg>.</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230816 16:37:19.128" endtime="20230816 16:37:19.129"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>------------------------------</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230816 16:37:19.129" endtime="20230816 16:37:19.130"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>quantidade de numeros par: ${qt_num_par}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230816 16:37:19.131" endtime="20230816 16:37:19.131"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>------------------------------</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230816 16:37:19.132" endtime="20230816 16:37:19.133"/>
+</kw>
+<status status="PASS" starttime="20230816 16:37:19.095" endtime="20230816 16:37:19.133"/>
+</kw>
+<status status="PASS" starttime="20230816 16:37:19.093" endtime="20230816 16:37:19.135"/>
+</test>
+<status status="PASS" starttime="20230816 16:37:19.065" endtime="20230816 16:37:19.136"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Questao4">Questao4</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

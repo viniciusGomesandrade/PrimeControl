@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.11.4 on win32)" generated="20230816 16:37:05.384" rpa="false" schemaversion="4">
+<suite id="s1" name="Questao3" source="c:\Users\VINI\Desktop\cursoprimerobot\primerobot\atividade3\questao3.robot">
+<test id="s1-t1" name="Exercicio" line="6">
+<kw name="Exibir frutas com o comando for">
+<for flavor="IN">
+<var>${fruta}</var>
+<value>@{frutas}</value>
+<iter>
+<var name="${fruta}">laranja</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>------------------------------</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230816 16:37:05.427" endtime="20230816 16:37:05.428"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Fruta: ${fruta}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230816 16:37:05.428" endtime="20230816 16:37:05.429"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>------------------------------</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230816 16:37:05.429" endtime="20230816 16:37:05.430"/>
+</kw>
+<status status="PASS" starttime="20230816 16:37:05.427" endtime="20230816 16:37:05.431"/>
+</iter>
+<iter>
+<var name="${fruta}">abacate</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>------------------------------</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230816 16:37:05.431" endtime="20230816 16:37:05.432"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Fruta: ${fruta}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230816 16:37:05.432" endtime="20230816 16:37:05.433"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>------------------------------</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230816 16:37:05.433" endtime="20230816 16:37:05.434"/>
+</kw>
+<status status="PASS" starttime="20230816 16:37:05.431" endtime="20230816 16:37:05.435"/>
+</iter>
+<iter>
+<var name="${fruta}">limão</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>------------------------------</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230816 16:37:05.435" endtime="20230816 16:37:05.436"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Fruta: ${fruta}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230816 16:37:05.436" endtime="20230816 16:37:05.437"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>------------------------------</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230816 16:37:05.437" endtime="20230816 16:37:05.438"/>
+</kw>
+<status status="PASS" starttime="20230816 16:37:05.435" endtime="20230816 16:37:05.439"/>
+</iter>
+<iter>
+<var name="${fruta}">banana</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>------------------------------</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230816 16:37:05.440" endtime="20230816 16:37:05.441"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Fruta: ${fruta}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230816 16:37:05.442" endtime="20230816 16:37:05.443"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>------------------------------</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230816 16:37:05.444" endtime="20230816 16:37:05.444"/>
+</kw>
+<status status="PASS" starttime="20230816 16:37:05.439" endtime="20230816 16:37:05.445"/>
+</iter>
+<iter>
+<var name="${fruta}">uva</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>------------------------------</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230816 16:37:05.447" endtime="20230816 16:37:05.448"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Fruta: ${fruta}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230816 16:37:05.448" endtime="20230816 16:37:05.449"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>------------------------------</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230816 16:37:05.449" endtime="20230816 16:37:05.450"/>
+</kw>
+<status status="PASS" starttime="20230816 16:37:05.446" endtime="20230816 16:37:05.450"/>
+</iter>
+<status status="PASS" starttime="20230816 16:37:05.426" endtime="20230816 16:37:05.450"/>
+</for>
+<status status="PASS" starttime="20230816 16:37:05.426" endtime="20230816 16:37:05.450"/>
+</kw>
+<status status="PASS" starttime="20230816 16:37:05.425" endtime="20230816 16:37:05.451"/>
+</test>
+<status status="PASS" starttime="20230816 16:37:05.392" endtime="20230816 16:37:05.453"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Questao3">Questao3</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

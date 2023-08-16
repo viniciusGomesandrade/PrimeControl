@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.11.4 on win32)" generated="20230816 16:36:48.809" rpa="false" schemaversion="4">
+<suite id="s1" name="Questao2" source="c:\Users\VINI\Desktop\cursoprimerobot\primerobot\atividade2\questao2.robot">
+<test id="s1-t1" name="Exercicio" line="11">
+<kw name="Exibir ano de nascimento">
+<kw name="Evaluate" library="BuiltIn">
+<var>${ano_nascimento}</var>
+<arg>${ano} - ${idade}</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<msg timestamp="20230816 16:36:48.859" level="INFO">${ano_nascimento} = 1998</msg>
+<status status="PASS" starttime="20230816 16:36:48.858" endtime="20230816 16:36:48.861"/>
+</kw>
+<if>
+<branch type="IF" condition="${ano_nascimento} &lt;= 2000">
+<kw name="Log To Console" library="BuiltIn">
+<arg>.</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230816 16:36:48.863" endtime="20230816 16:36:48.864"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>------------------------------</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230816 16:36:48.865" endtime="20230816 16:36:48.867"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Você nasceu no século passado!</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230816 16:36:48.868" endtime="20230816 16:36:48.869"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>------------------------------</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230816 16:36:48.870" endtime="20230816 16:36:48.873"/>
+</kw>
+<status status="PASS" starttime="20230816 16:36:48.862" endtime="20230816 16:36:48.874"/>
+</branch>
+<branch type="ELSE">
+<kw name="Log To Console" library="BuiltIn">
+<arg>O ano de nascimento é: ${ano_nascimento}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" starttime="20230816 16:36:48.875" endtime="20230816 16:36:48.876"/>
+</kw>
+<status status="NOT RUN" starttime="20230816 16:36:48.874" endtime="20230816 16:36:48.876"/>
+</branch>
+<status status="PASS" starttime="20230816 16:36:48.862" endtime="20230816 16:36:48.877"/>
+</if>
+<status status="PASS" starttime="20230816 16:36:48.858" endtime="20230816 16:36:48.877"/>
+</kw>
+<status status="PASS" starttime="20230816 16:36:48.857" endtime="20230816 16:36:48.878"/>
+</test>
+<doc>Demonstração</doc>
+<status status="PASS" starttime="20230816 16:36:48.818" endtime="20230816 16:36:48.879"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Questao2">Questao2</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

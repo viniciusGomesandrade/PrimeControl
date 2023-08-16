@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.11.4 on win32)" generated="20230816 16:36:32.578" rpa="false" schemaversion="4">
+<suite id="s1" name="Questao1" source="c:\Users\VINI\Desktop\cursoprimerobot\primerobot\atividade1\questao1.robot">
+<test id="s1-t1" name="Cenario 01: Questao" line="18">
+<kw name="Logar Variavel Dicionario No Console">
+<kw name="Log To Console" library="BuiltIn">
+<arg>.</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230816 16:36:32.610" endtime="20230816 16:36:32.611"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>--------------------------------------</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230816 16:36:32.611" endtime="20230816 16:36:32.611"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Nome.: ${DICIONARIO.nome}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230816 16:36:32.611" endtime="20230816 16:36:32.613"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Idade.: ${DICIONARIO.idade}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230816 16:36:32.613" endtime="20230816 16:36:32.614"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Rua.: ${DICIONARIO.rua}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230816 16:36:32.615" endtime="20230816 16:36:32.616"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Numero.: ${DICIONARIO.numero}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230816 16:36:32.617" endtime="20230816 16:36:32.618"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Cep.: ${DICIONARIO.cep}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230816 16:36:32.618" endtime="20230816 16:36:32.619"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Bairro.: ${DICIONARIO.bairro}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230816 16:36:32.620" endtime="20230816 16:36:32.621"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Cidade.: ${DICIONARIO.cidade}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230816 16:36:32.621" endtime="20230816 16:36:32.623"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Estado.: ${DICIONARIO.estado}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230816 16:36:32.624" endtime="20230816 16:36:32.625"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>--------------------------------------</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230816 16:36:32.625" endtime="20230816 16:36:32.626"/>
+</kw>
+<status status="PASS" starttime="20230816 16:36:32.610" endtime="20230816 16:36:32.626"/>
+</kw>
+<status status="PASS" starttime="20230816 16:36:32.609" endtime="20230816 16:36:32.627"/>
+</test>
+<doc>Demonstração</doc>
+<status status="PASS" starttime="20230816 16:36:32.584" endtime="20230816 16:36:32.628"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Questao1">Questao1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
